@@ -7,11 +7,7 @@ from aoc8.days.d2 import d2_p1
 from aoc8.days.d2 import d2_p2
 from aoc8.days.d2 import extract_move
 from aoc8.days.d2 import play
-
-
-def read_data(input_path: str) -> str:
-    with open(input_path, "r") as input_file:
-        return input_file.read()
+from aoc8.util import read_data
 
 
 def test_move():
